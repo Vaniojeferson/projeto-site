@@ -24,8 +24,8 @@
 
 *{
     margin: 0px;
-    margin-left: 10px;
-    padding: 0px;
+    margin-left: 0px;
+    padding: 10px;
 }
 body {
     background-color:var(--cor00);
@@ -110,20 +110,26 @@ main p{
     text-align: justify;
     text-indent: 20px;
     line-height: 1.8em;
+    
 }
-main strong{
+/*main strong{
     color: var(--cor05);
     background-color: var(--cor01);
     padding: 01px 6px;
-}
+}*/
+
 main a { 
-    text-decoration: none;
+    text-decoration: underline;
     
 }
 
 article > h1, h2, h3{
     color: var(--cor05);
     font-family: var(--fonte_android);
+}
+
+article > p {
+    padding: 10px 10px  ;
 }
 #vanio {
     background-image: linear-gradient(to right, var(--cor04),transparent);
@@ -136,7 +142,7 @@ article> iframe,img {
     width: 100%;
     margin-left: 2px;
     border: solid;
-    
+    padding-bottom: 10px;
 }
 picture > img{
     width: 100%;
@@ -146,7 +152,7 @@ aside{
     background-color: var(--cor01);
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 03px 03px 08px rgba(0, 0, 0, 0.659);
+    box-shadow: 03px 03px 08px rgba(0, 0, 0, 0.412);
 }
 aside > h3{
     background-color: var(--cor03);
@@ -159,8 +165,14 @@ aside > h3{
 aside > ul{
     columns: 2;
    list-style-type: '\2714\00a0\00a0';
+   
 }
-
+aside > ul> li{
+    padding: 10px 10px;
+}
+aside > p {
+    padding: 10px 10px;
+}
 footer{
     background-color: var(--cor05);
     color: white;
