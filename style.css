@@ -25,7 +25,7 @@
 *{
     margin: 0px;
     margin-left: 0px;
-    padding: 10px;
+    padding: 0px;
 }
 body {
     background-color:var(--cor00);
@@ -93,7 +93,7 @@ nav > :hover{
 main {
 
     min-width: 300px;
-    max-width: 700px;
+    max-width: 900px;
     padding: 20px;
     border-bottom: 30px;
     border-bottom-left-radius: 10px;
@@ -138,15 +138,16 @@ article > p {
     
 }
 
-article> iframe,img {
+article> iframe {
     width: 100%;
-    margin-left: 2px;
+    margin-left: 0.5px;
+    margin-bottom: 20px;
     border: solid;
     padding-bottom: 10px;
 }
 picture > img{
     width: 100%;
-    margin:10px -28px;
+    margin:10px 0.5px;
 }
 aside{
     background-color: var(--cor01);
@@ -169,6 +170,7 @@ aside > ul{
 }
 aside > ul> li{
     padding: 10px 10px;
+    margin-left: 30px;
 }
 aside > p {
     padding: 10px 10px;
