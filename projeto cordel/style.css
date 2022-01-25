@@ -57,7 +57,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1,6vw;
+    font-size: 1.9vw;
     
 }
 section.imagem > p{
@@ -86,7 +86,7 @@ section > p{
 section#img01{
     background-image: url('imagens/background001.jpg');
     background-position: right ;
-    height: 200px;
+    
 
 }
 
