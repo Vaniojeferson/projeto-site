@@ -58,7 +58,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1.9vw;
+    font-size: 2vw;
     
     
 }
@@ -82,7 +82,7 @@ section.imagem{
 }
 
 section > p{
-    padding-bottom: 2em;
+    padding-bottom: 1em;
    
 }
 
