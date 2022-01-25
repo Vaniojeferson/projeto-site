@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -59,6 +60,7 @@ section{
     font-family: var(--fonte3);
     font-size: 1.9vw;
     
+    
 }
 section.imagem > p{
     display: inline-block;
@@ -81,6 +83,7 @@ section.imagem{
 
 section > p{
     padding-bottom: 2em;
+   
 }
 
 section#img01{
